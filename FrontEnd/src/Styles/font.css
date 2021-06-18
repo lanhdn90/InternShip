@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "beb";
+    src: url("../Font//ProximaNovaA-Extrabld.woff2") format("woff2"), url("../Font/ProximaNovaA-Extrabld.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "pr";
+    src: url("../Font/ProximaNova-Regular.woff2") format("woff2"), url("../Font/ProximaNova-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "pg";
+    src: url("../Font/ProximaNova-Bold.woff2") format("woff2"), url("../Font/ProximaNova-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}

@@ -1,0 +1,40 @@
+.courseName{
+    color: yellowgreen;
+}
+
+.defaultName{
+    color: black;
+}
+
+.dragDropContext{
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    
+}
+
+.dragDropContextOne{
+
+    margin-right: 30px;
+}
+
+.Droppable{
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    overflow-y: auto;
+    height: 430px;
+    width: 400px;
+}
+
+.draggableItem{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 30px;
+    border: 2px solid aquamarine;
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+    font-weight: 300;
+}

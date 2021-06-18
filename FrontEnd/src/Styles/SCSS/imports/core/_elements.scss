@@ -1,0 +1,47 @@
+// css button, title, icon, elements...
+img {
+    max-width: 100%;
+}
+.btnMain {
+    text-decoration: none;
+    color: $black-cl;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: max-content;
+    z-index: 1;
+    position: relative;
+    &__img {
+        @include midimg(100%);
+    }
+}
+.btnMore {
+    display: inline-flex;
+    font-family: pb;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $black-cl;
+    position: relative;
+    img  {
+        margin-left: 10px;
+    }
+    &::before {
+        content: '';
+        width: 35px;
+        height: 2px;
+        background: $yelow-cl;
+        display: block;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        @include transform (translateX(0px))
+    }
+    &:hover {
+        opacity: 0.6;
+        @include transition ($t);
+        &::before {
+            @include transform(translateX ( 10px));
+            @include transition ($t);
+        }
+    }
+}

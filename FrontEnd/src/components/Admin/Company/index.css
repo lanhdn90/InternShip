@@ -1,0 +1,31 @@
+.hidden{
+    width: calc(100% - 80px);
+}
+
+.show{
+    width: calc(100% - 200px);
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: aquamarine;
+    font-size: 30px;
+    font-weight: bold;
+
+    
+}
+
+.avatar-uploader > .ant-upload {
+    width: 128px;
+    height: 128px;
+}
+
+.avatar-img{
+    width: 20%; 
+    top: 40%;
+    left: 10%;
+    
+}

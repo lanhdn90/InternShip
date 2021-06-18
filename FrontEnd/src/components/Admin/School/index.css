@@ -1,0 +1,19 @@
+.hidden{
+    width: calc(100% - 80px);
+}
+
+.show{
+    width: calc(100% - 200px);
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: aquamarine;
+    font-size: 30px;
+    font-weight: bold;
+
+    
+}

@@ -1,0 +1,21 @@
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: aquamarine;
+    font-size: 30px;
+    font-weight: bold;
+
+    
+}
+
+.avatar-uploader > .ant-upload {
+    width: 128px;
+    height: 128px;
+}
+
+.ant-input-number{
+    width: 200px;
+}

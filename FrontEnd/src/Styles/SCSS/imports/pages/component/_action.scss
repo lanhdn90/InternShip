@@ -1,0 +1,39 @@
+.section-action {
+  padding: 60px 0 80px 0;
+  background: #00afab;
+  text-align: center;
+  h3 {
+    max-width: 800px;
+    font-size: 34px;
+    line-height: 50px;
+    font-family: ab;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn.bg-white {
+    background: #fff;
+    color: #00afab;
+    border: 1px solid #fff;
+    border-radius: 100px;
+  }
+  .btn {
+    height: 45px;
+    line-height: inherit;
+    color: white;
+    cursor: pointer;
+    padding: 0 36px 1px 36px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: ab;
+    user-select: none;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+  }
+}

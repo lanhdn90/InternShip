@@ -1,0 +1,38 @@
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    height: 53px;
+    background-color: aqua;
+}
+
+
+.logo {
+    background-image: url("../../../IMG/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+    width: 100px;
+}
+
+.userName {
+    padding: 0 10px;
+    margin: 0 10px;
+
+
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    border: none;
+    background-color: aqua;
+    font-weight: bold;
+    color: white;
+}
+
+.ant-btn>span {
+    display: inline;
+}

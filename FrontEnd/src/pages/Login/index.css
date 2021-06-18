@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?cs=srgb&dl=pexels-pixabay-373076.jpg&fm=jpg") ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+h3{
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+}
+.tab-content{
+    display: block;
+    padding: 24px;
+    width: 500px;
+    margin: 16px auto;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+#password{
+    color: white;
+}

@@ -1,0 +1,37 @@
+export const GET_USER="GET_USER";//constant 1
+export const GET_USER_SUCCESS = 'GET_USER_SUCCESS';
+export const GET_USER_FAIL = 'GET_USER_FAIL';
+
+export const SET_USER="SET_USER";//constant 1
+export const SET_USER_SUCCESS = 'SET_USER_SUCCESS';
+export const SET_USER_FAIL = 'SET_USER_FAIL';
+
+export const GET_PERSON_INFO="GET_PERSON_INFO";//constant 1
+export const GET_PERSON_INFO_SUCCESS = 'GET_PERSON_INFO_SUCCESS';
+export const GET_PERSON_INFO_FAIL = 'GET_PERSON_INFO_FAIL';
+
+export const SET_IMAGE = 'SET_IMAGE';
+export const SET_IMAGE_SUCCESS = 'SET_IMAGE_SUCCESS';
+export const SET_IMAGE_FAIL = 'SET_IMAGE_FAIL';
+
+export const CREATE_USER="CREATE_USER";
+export const CREATE_USER_SUCCESS = "CREATE_USER_SUCCESS";
+export const CREATE_USER_FAIL = 'CREATE_USER_FAIL';
+
+export const UPDATE_USER="UPDATE_USER";
+export const UPDATE_USER_SUCCESS = 'UPDATE_USER_SUCCESS';
+export const UPDATE_USER_FAIL = 'UPDATE_USER_FAIL';
+
+export const CHANGE_USER="CHANGE_USER";
+
+export const CHECK_USER="CHECK_USER";
+export const CHECK_USER_SUCCESS = "CHECK_USER_SUCCESS";
+export const CHECK_USER_FAIL = 'CHECK_USER_FAIL';
+
+export const LOGIN_ADMIN="LOGIN_ADMIN";//constant 1
+export const LOGIN_ADMIN_SUCCESS = 'LOGIN_ADMIN_SUCCESS';
+export const LOGIN_ADMIN_FAIL = 'LOGIN_ADMIN_FAIL';
+ 
+export const LOGOUT_USER ="lOGOUT_USER";
+export const LOGOUT_USER_SUCCESS="LOGOUT_USER_SUCCESS";
+export const LOGOUT_USER_FAIL="LOGOUT_USER_FAIL";

@@ -1,0 +1,73 @@
+/*primary colors*/
+$white-cl: #fff;
+$black-cl: #000;
+$yelow-cl: #bea67c;
+/*global text color*/
+$text-cl: #555350;
+$text-black-cl: #000;
+
+
+/*global bg color*/
+$main-bg-cl: #ffff;
+$black-bg-cl: $black-cl;
+
+// timing transition
+$t: 0.4s; // thời gian animation
+$cubic: cubic-bezier(0.84, 0.13, 0.33, 0.97); // gia tốc
+
+/*font families*/
+$font-stack: "Open Sans", sans-serif;
+$font-main: arial;
+
+/*headings typo*/
+$fz-text: 16px;
+$lh-text: normal;
+
+$fz-text-m: 16px;
+$lh-text-m: normal;
+
+//============================================================//
+
+/*BOXED LAYOUT*/
+$container-max-width: 1920px;
+$container-width: 1040px; // tùy thuộc vào container của bản thiết kế mà chỉnh sửa cho hợp lý đo  cộng thêm 30px nữa
+
+/*GRID - media queries breakpoints*/
+$xxs-min: 576px; // CÓ THỂ TÙY CHỈNH
+$xs-min: 768px; // KHÔNG THAY ĐỔI
+$sm-min: 992px; // KHÔNG THAY ĐỔI
+$md-min: 1200px; // KHÔNG THAY ĐỔI
+$lg-min: 1600px; // CÓ THỂ TÙY CHỈNH
+
+$xxs-max: ($xxs-min - 1); // Small Mobile
+$xs-max: ($xs-min - 1); // Mobile
+$sm-max: ($sm-min - 1); // Tablet
+$md-max: ($md-min - 1); // Desktop
+$lg-max: ($lg-min - 1); // Large Desktop
+
+$color-text: #ffffff;
+$color-titte: #bea67c;
+html body {
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    --heightHeader: 8vh;
+    overflow-x: hidden;
+    background: #f4f7f6;
+    @media (max-width: 991) {
+        --heightHeader: 64px;
+    }
+}
+.main-title {
+    font-size: 44px;
+    text-align: center;
+    font-family: ab;
+    margin-bottom: 20px;
+    line-height: normal;
+    text-transform: capitalize;
+    letter-spacing: 0.8px
+}
+
